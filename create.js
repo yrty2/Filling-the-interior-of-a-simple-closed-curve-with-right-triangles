@@ -16,7 +16,7 @@ function init(){
             });
             //不等式で図形内に含まれるかどうかを定義する。
             for(let k=0; k<N; ++k){
-                plot(cells.length-1,vec.prod([Math.cos(2*Math.PI*k/N),Math.sin(2*Math.PI*k/N)],400/Math.max(xam,yam)));
+                plot(cells.length-1,prod([Math.cos(2*Math.PI*k/N),Math.sin(2*Math.PI*k/N)],400/Math.max(xam,yam)));
             }
             midm(cells.length-1,3);
             generatepolygon(cells.length-1);
